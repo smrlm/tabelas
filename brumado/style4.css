@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+    width: 400px;
+    background-color: #F9F9F9
+    
+}
+
+.dado {
+    color: #0645AD;
+    font-weight: bold;
+}
+
+.localizacao, .caracteristicas {
+    background-color:aqua;
+    font-weight: bold;
+    text-align: center;
+}
+
+#km, #ibge, #m {
+    font-style: italic;
+    color: #0645AD;
+}

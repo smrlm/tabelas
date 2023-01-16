@@ -1,0 +1,26 @@
+table, td, th {
+    border: 1px solid black;
+}
+
+caption {
+    font-style: italic;
+    font-weight: bold;
+}
+
+table {
+    width: 400px;
+}
+
+.bordadebaixo {
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+.bordadecima {
+    border: none;
+    border-top: 1px solid black;
+}
+
+.cidades {
+    border: none;
+}
