@@ -1,0 +1,93 @@
+body {
+  padding: 0px;
+  margin: 0;
+}
+
+table#tabela {
+  border: 1px solid #DDDDDD;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 600px;
+  font-size: 14px;
+  color: #666666;
+  text-align: center;
+
+}
+
+th {
+  border-bottom: 1px solid black;
+  background-color: #f7f7f7;
+}
+
+
+tbody td:nth-child(n+3):nth-child(odd) {
+  background-color: grey
+}
+
+td:nth-child(n+3) {
+  border: 1px solid black;
+}
+
+.posicao {
+  font-size: 13px;
+  color: #999999;
+  font-weight: bold;
+  text-align: center;
+}
+
+.time {
+  font-size: 14px;
+  color: #666666;
+  font-weight: bold;
+  text-align: left;
+}
+
+.pontos {
+  font-size: 14px;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  
+  
+}
+
+.zona_azul {
+  color: #003366;
+  font-weight: bolder;
+}
+
+.quarto_colocado {
+  color: #1398BE;
+  font-weight: bolder;
+}
+
+.zona_amarela {
+  color: #DE9800;
+  font-weight: bolder;
+}
+
+.zona_cinza {
+  color: #CCCCCC;
+  font-weight: bolder;
+}
+
+.zona_vermelha {
+  color: #C91B04;
+  font-weight: bolder;
+}
+
+#rodape{
+  
+}
+
+.legenda {
+  font-size: 10px;
+  color: #555555;
+  text-align: left;
+  
+  
+}
+
+.zona_classificacao {
+  font-size: 10px;
+  
+}
